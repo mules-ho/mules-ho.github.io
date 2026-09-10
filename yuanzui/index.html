@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冤罪-法律维权指南与冤假错案申诉途径解析</title>
+    <meta name="description" content="深入解析冤罪概念、成因、申诉渠道与法律救济途径，汇集冤假错案平反案例分析与法律维权指引，为蒙冤者及其家属提供清晰、实用的行动指南。">
+    <meta name="keywords" content="冤罪,冤假错案,申诉,再审,国家赔偿,法律维权,错案平反,无罪辩护">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header */
+        .site-header {
+            background: #1a2a3a;
+            padding: 16px 0;
+            border-bottom: 3px solid #b8860b;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .logo-area h1 {
+            color: #e8d5a3;
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            line-height: 1.3;
+        }
+        .logo-area p {
+            color: #aab8c4;
+            font-size: 0.85rem;
+        }
+        .nav-menu {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .nav-menu a {
+            color: #d0d9e0;
+            text-decoration: none;
+            padding: 8px 14px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            transition: background 0.3s, color 0.3s;
+        }
+        .nav-menu a:hover {
+            background: rgba(255,255,255,0.1);
+            color: #e8d5a3;
+        }
+        .nav-menu a.active {
+            background: #b8860b;
+            color: #fff;
+        }
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 100%);
+            color: #fff;
+            padding: 60px 0 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            right: 0;
+            height: 40px;
+            background: #f5f7fa;
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #f0e6c8;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 20px;
+            color: #cfd8e0;
+        }
+        .hero .hero-tag {
+            display: inline-block;
+            background: rgba(184,134,11,0.3);
+            border: 1px solid #b8860b;
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            color: #e8d5a3;
+            margin: 5px 4px;
+        }
+        /* Main Content */
+        .main-wrap {
+            padding: 40px 0 50px;
+        }
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        .content-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-top: 3px solid #b8860b;
+        }
+        .content-card h3 {
+            font-size: 1.4rem;
+            color: #1a2a3a;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e8ecf1;
+            position: relative;
+        }
+        .content-card h3::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 60px;
+            height: 2px;
+            background: #b8860b;
+        }
+        .content-card h4 {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            margin: 18px 0 8px;
+        }
+        .content-card p {
+            margin-bottom: 12px;
+            color: #4a5a6a;
+        }
+        .content-card ul, .content-card ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+            color: #4a5a6a;
+        }
+        .content-card li {
+            margin-bottom: 6px;
+        }
+        .highlight-box {
+            background: #f8f4e9;
+            border-left: 4px solid #b8860b;
+            padding: 15px 18px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .highlight-box strong {
+            color: #8a6d1c;
+        }
+        .step-list {
+            counter-reset: step-counter;
+            list-style: none;
+            margin-left: 0 !important;
+        }
+        .step-list li {
+            counter-increment: step-counter;
+            padding-left: 45px;
+            position: relative;
+            margin-bottom: 12px;
+        }
+        .step-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 28px;
+            height: 28px;
+            background: #1a2a3a;
+            color: #e8d5a3;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+        /* Sidebar */
+        .sidebar-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .sidebar-card h4 {
+            font-size: 1.1rem;
+            color: #1a2a3a;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8ecf1;
+        }
+        .law-link {
+            display: block;
+            padding: 8px 0;
+            border-bottom: 1px dashed #e0e6ec;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s, padding-left 0.3s;
+        }
+        .law-link:last-child {
+            border-bottom: none;
+        }
+        .law-link:hover {
+            color: #b8860b;
+            padding-left: 8px;
+        }
+        .law-link span {
+            color: #7f8c98;
+            font-size: 0.85rem;
+        }
+        .case-stat {
+            text-align: center;
+            padding: 10px 0;
+            background: #f8f4e9;
+            border-radius: 6px;
+            margin: 8px 0;
+        }
+        .case-stat .num {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #b8860b;
+        }
+        .case-stat .label {
+            color: #6b7a8a;
+            font-size: 0.9rem;
+        }
+        /* Table */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        th {
+            background: #1a2a3a;
+            color: #e8d5a3;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e8ecf1;
+            color: #4a5a6a;
+        }
+        tr:nth-child(even) td {
+            background: #f9fafc;
+        }
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #e0e6ec;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .faq-q {
+            background: #f8f4e9;
+            padding: 12px 18px;
+            font-weight: 600;
+            color: #1a2a3a;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-q::after {
+            content: "+";
+            font-size: 1.4rem;
+            color: #b8860b;
+            transition: transform 0.3s;
+        }
+        .faq-item.open .faq-q::after {
+            transform: rotate(45deg);
+        }
+        .faq-a {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background: #fff;
+            color: #4a5a6a;
+        }
+        .faq-item.open .faq-a {
+            padding: 12px 18px;
+            max-height: 300px;
+        }
+        /* CTA */
+        .cta-box {
+            background: #1a2a3a;
+            border-radius: 8px;
+            padding: 25px 30px;
+            margin: 30px 0;
+            text-align: center;
+            color: #fff;
+        }
+        .cta-box h3 {
+            color: #e8d5a3;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        .cta-box p {
+            color: #cfd8e0;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background: #b8860b;
+            color: #fff;
+            padding: 10px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background: #9a7209;
+            transform: translateY(-2px);
+        }
+        /* Footer */
+        .site-footer {
+            background: #1a2a3a;
+            color: #aab8c4;
+            padding: 25px 0;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        .site-footer a {
+            color: #e8d5a3;
+            text-decoration: none;
+        }
+        .footer-links {
+            margin-bottom: 10px;
+        }
+        .footer-links a {
+            margin: 0 10px;
+        }
+        /* Responsive */
+        @media (max-width: 900px) {
+            .grid-2col {
+                grid-template-columns: 1fr;
+            }
+            .hero h2 {
+                font-size: 1.6rem;
+            }
+            .header-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-menu {
+                justify-content: center;
+                margin-top: 5px;
+            }
+        }
+        @media (max-width: 600px) {
+            .content-card, .sidebar-card {
+                padding: 20px 16px;
+            }
+            .hero {
+                padding: 40px 0;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .table-responsive {
+                font-size: 0.85rem;
+            }
+            .content-card h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <h1>冤罪·法律维权</h1>
+                <p>让正义虽迟必到 · 为蒙冤者点亮希望</p>
+            </div>
+            <nav class="nav-menu">
+                <a href="#concept" class="active">冤罪概念</a>
+                <a href="#reasons">成因分析</a>
+                <a href="#appeal">申诉渠道</a>
+                <a href="#cases">平反案例</a>
+                <a href="#faq">常见问题</a>
+                <a href="#guide">维权指南</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>冤罪，是法治之痛，更是必须直视的课题</h2>
+            <p>当司法天平出现倾斜，当无辜者身陷囹圄，我们需要的不是回避，而是清醒的认知与有效的行动。本页为您系统梳理冤罪的法律定义、典型成因、申诉路径与平反机制。</p>
+            <div>
+                <span class="hero-tag">无罪辩护</span>
+                <span class="hero-tag">再审启动</span>
+                <span class="hero-tag">国家赔偿</span>
+                <span class="hero-tag">冤案平反</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-wrap">
+        <div class="container">
+            <div class="grid-2col">
+                <!-- 左侧主内容区 -->
+                <main>
+                    <section class="content-card" id="concept">
+                        <h3>什么是“冤罪”？——法律视角的严格界定</h3>
+                        <p>在中文语境中，“冤罪”通常指一个人被错误地认定为有罪，并因此受到刑事处罚的情况。从法律专业角度出发，冤罪并不等同于简单的“错案”，它有着更严格的内涵和表现形式。</p>
+                        <div class="highlight-box">
+                            <strong>法律定义：</strong>冤罪是指因错误的事实认定或错误的适用法律，导致无罪的公民被刑事追诉、定罪或判刑的司法错误。其核心特征在于“实质无辜”——即被告并未实施被指控的犯罪行为。
+                        </div>
+                        <p>冤罪与“疑罪从无”原则背道而驰。在法治国家，任何人在被依法证明有罪之前，均应视为无罪。当证据不足时，应当作出有利于被告人的认定。冤罪的发生，往往意味着这一基本原则在个案中失灵。</p>
+                        <h4>冤罪的典型类型</h4>
+                        <ul>
+                            <li><strong>事实错案：</strong>因目击者误认、虚假供述、鉴定错误等原因，将未犯罪之人认定有罪。</li>
+                            <li><strong>法律适用错误：</strong>将不构成犯罪的行为错误地认定为犯罪，或对行为性质作出错误的法律评价。</li>
+                            <li><strong>程序违法致冤：</strong>侦查、起诉、审判过程中存在刑讯逼供、非法取证等严重程序违法，导致实体错误。</li>
+                            <li><strong>顶罪或栽赃：</strong>他人冒名顶罪或故意陷害，致使无辜者入罪。</li>
+                        </ul>
+                    </section>
+
+                    <section class="content-card" id="reasons">
+                        <h3>冤罪的深层成因——为何会发生？</h3>
+                        <p>冤罪的发生极少是单一因素所致，往往是多重制度缺陷与人为失误叠加的悲剧。理解成因是预防和纠正冤案的前提。</p>
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>成因类别</th>
+                                        <th>具体表现</th>
+                                        <th>后果</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>刑讯逼供与非法取证</td>
+                                        <td>通过肉体或精神折磨获取口供</td>
+                                        <td>虚假供述成为定案根据</td>
+                                    </tr>
+                                    <tr>
+                                        <td>证人证言偏差</td>
+                                        <td>目击者记忆错误、辨认程序不规范</td>
+                                        <td>错误指认被告人</td>
+                                    </tr>
+                                    <tr>
+                                        <td>鉴定结论错误</td>
+                                        <td>鉴定机构资质不足、检材污染、方法落后</td>
+                                        <td>关键证据失真</td>
+                                    </tr>
+                                    <tr>
+                                        <td>辩护权保障不足</td>
+                                        <td>法援缺位、会见难、阅卷难</td>
+                                        <td>庭审对抗性削弱</td>
+                                    </tr>
+                                    <tr>
+                                        <td>司法惯性思维</td>
+                                        <td>“有罪推定”、疑罪从轻、协调定案</td>
+                                        <td>疑点未排除即下判</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>值得注意的是，我国近年来通过推进以审判为中心的诉讼制度改革、落实非法证据排除规则、加强人权司法保障，在防范冤假错案方面取得了积极进展。但历史教训警示我们，制度完善永远在路上。</p>
+                    </section>
+
+                    <section class="content-card" id="appeal">
+                        <h3>蒙冤如何申诉？——法律救济的全路径</h3>
+                        <p>如果您或您的亲属认为自己被错误定罪，法律为您设置了多层次的救济通道。以下路径按常规顺序排列，但并非必须逐级进行，可根据案情选择。</p>
+                        <ol class="step-list">
+                            <li><strong>向原审法院或同级检察院提出申诉</strong><br>这是最直接的申诉途径。申诉应提交申诉状、原生效判决书副本、新证据或线索等材料。法院或检察院收到后依法审查，决定是否启动再审程序。</li>
+                            <li><strong>向上一级法院或检察院申诉</strong><br>如原审法院或同级检察院驳回申诉，或超过合理期限未予答复，可向上一级司法机关申诉。</li>
+                            <li><strong>申请检察院抗诉</strong><br>最高人民检察院对各级法院的生效裁判，上级检察院对下级法院的生效裁判，如发现确有错误，有权提出抗诉，从而引发再审。</li>
+                            <li><strong>向人大、政协或信访部门反映</strong><br>作为补充渠道，可以通过法定监督形式反映问题，但核心仍应回到法律程序框架内解决。</li>
+                        </ol>
+                        <div class="highlight-box">
+                            <strong>重要提示：</strong>申诉不停止原判决的执行，但符合法定条件的，法院可以决定暂缓执行或中止执行。申诉期间应尽量聘请专业刑事律师，以提高申诉质量和效率。
+                        </div>
+                        <h4>再审程序的启动条件</h4>
+                        <ul>
+                            <li>有新的证据证明原判决、裁定认定的事实确有错误，可能影响定罪量刑的；</li>
+                            <li>据以定罪量刑的证据不确实、不充分、依法应当排除的；</li>
+                            <li>原判决、裁定适用法律确有错误的；</li>
+                            <li>违反法律规定的诉讼程序，可能影响公正审判的；</li>
+                            <li>审判人员在审理该案件时有贪污受贿、徇私舞弊、枉法裁判行为的。</li>
+                        </ul>
+                    </section>
+
+                    <section class="content-card" id="cases">
+                        <h3>平反之路——典型冤案再审启示录</h3>
+                        <p>近年来，一批重大冤假错案经再审得以平反，彰显了司法纠错的勇气与决心。这些案例不仅是当事人的胜利，更是法治进步的重要注脚。</p>
+                        <h4>案例特征分析</h4>
+                        <p>从已公开报道的平反案件看，普遍存在以下共性：原判主要依赖口供、证据链单一、辩护意见未被重视、案件历经多次申诉。而促成再审改判的因素，往往包括“真凶出现”“亡者归来”或DNA等科学证据的突破性应用。</p>
+                        <div class="highlight-box">
+                            <strong>数据提示：</strong>根据公开报道，2020年至2024年间，全国法院通过再审程序改判多起重大冤错案件，彰显了“有错必纠”的司法政策导向。但具体个案数据需以官方发布为准。
+                        </div>
+                        <p>这些案例给予社会最深刻的启示在于：<strong>疑罪从无不是口号，而是必须坚守的铁律。</strong>每一次冤案的纠正，都是对司法公信力的一次修复，也是对潜在制度漏洞的一次警示。</p>
+                    </section>
+
+                    <section class="content-card" id="guide">
+                        <h3>维权行动指南——从申诉到国家赔偿</h3>
+                        <p>冤案平反并非终点，获得国家赔偿与恢复名誉是权利救济的必要延伸。</p>
+                        <h4>国家赔偿申请要点</h4>
+                        <ul>
+                            <li><strong>赔偿范围：</strong>侵犯公民人身自由的赔偿金、生命健康权损害赔偿金、精神损害抚慰金等。</li>
+                            <li><strong>申请时效：</strong>应在刑事赔偿请求时效期间内（通常为2年）向赔偿义务机关提出。</li>
+                            <li><strong>赔偿义务机关：</strong>作出错误逮捕决定的机关、错误判决的法院等为赔偿义务机关。</li>
+                            <li><strong>程序：</strong>先向赔偿义务机关申请，不服决定的，可向其上一级机关申请复议。对复议决定仍不服的，可向复议机关所在地的同级人民法院赔偿委员会申请作出赔偿决定。</li>
+                        </ul>
+                        <p>此外，还应关注个人档案记录更正、原单位工作恢复或补偿、社会名誉恢复等后续问题，必要时可寻求法律援助机构或专业律师协助。</p>
+                    </section>
+
+                    <!-- FAQ -->
+                    <section class="content-card" id="faq">
+                        <h3>关于冤罪，您可能关心的其他问题</h3>
+                        <div class="faq-item">
+                            <div class="faq-q">申诉与上诉有什么区别？</div>
+                            <div class="faq-a">上诉是针对尚未生效的一审判决，在法定期限内向上一级法院提出；申诉是针对已经生效的判决或裁定，向法院或检察院提出再审请求。两者在对象、期限、受理机关及法律效果上均有不同。</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-q">申诉有时间限制吗？</div>
+                            <div class="faq-a">刑事案件申诉没有严格的法定时效限制，任何时候发现新证据或新情况，都可以提出申诉。但实践中越早提出，证据保存和事实查明的可能性越大，因此不应无故拖延。</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-q">家属可以为在押的亲属申诉吗？</div>
+                            <div class="faq-a">可以。当事人及其法定代理人、近亲属均有权提出申诉。近亲属包括配偶、父母、子女、同胞兄弟姐妹等。</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-q">聘请律师对申诉有多大帮助？</div>
+                            <div class="faq-a">专业刑事律师能够帮助分析生效判决中的法律漏洞、梳理新证据的法律意义、规范书写申诉文书，并且熟悉司法机关的审查标准，能显著提高申诉的规范性和成功率。</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-q">冤案平反后，如何申请国家赔偿？</div>
+                            <div class="faq-a">在收到再审改判无罪的生效判决后，即可向赔偿义务机关（通常是原作出错误判决的法院）提出国家赔偿申请。需要提交赔偿申请书、改判文书、身份证明及损失证明等材料。</div>
+                        </div>
+                    </section>
+                </main>
+
+                <!-- 右侧边栏 -->
+                <aside>
+                    <div class="sidebar-card">
+                        <h4>法律依据速览</h4>
+                        <a href="#" class="law-link">《中华人民共和国刑事诉讼法》第252条 <span>申诉主体</span></a>
+                        <a href="#" class="law-link">《刑事诉讼法》第253条 <span>再审条件</span></a>
+                        <a href="#" class="law-link">《刑事诉讼法》第254条 <span>指令再审</span></a>
+                        <a href="#" class="law-link">《国家赔偿法》第17条 <span>赔偿范围</span></a>
+                        <a href="#" class="law-link">《国家赔偿法》第33条 <span>赔偿标准</span></a>
+                        <a href="#" class="law-link">《关于办理刑事案件严格排除非法证据若干问题的规定》 <span>非法证据排除</span></a>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h4>关键数据一览</h4>
+                        <div class="case-stat">
+                            <div class="num">2023年</div>
+                            <div class="label">全国法院审结国家赔偿案件约2.8万件（含各类赔偿）</div>
+                        </div>
+                        <div class="case-stat">
+                            <div class="num">再审</div>
+                            <div class="label">对发现存在问题的案件依法启动再审程序</div>
+                        </div>
+                        <p style="font-size:0.85rem;color:#7f8c98;margin-top:12px;">*数据来源于最高人民法院历年工作报告，综合各类赔偿案件统计。</p>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h4>重要提示</h4>
+                        <div style="background:#fdf6ec;border-radius:6px;padding:14px;font-size:0.9rem;color:#5a4a2a;border:1px solid #e8d5a3;">
+                            <strong>遇到冤案，请保持冷静与理性。</strong><br><br>
+                            切勿采取过激行为或轻信“花钱捞人”等骗局。一切维权行为都应在法律框架内进行。建议第一时间咨询正规律师事务所的专业刑辩律师。
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h4>相关阅读</h4>
+                        <a href="#" class="law-link">如何选择靠谱的刑事辩护律师</a>
+                        <a href="#" class="law-link">刑事申诉状写作要点与范例</a>
+                        <a href="#" class="law-link">非法证据排除规则的实务运用</a>
+                        <a href="#" class="law-link">错案国家赔偿计算标准详解</a>
+                        <a href="#" class="law-link">服刑人员减刑假释条件解析</a>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta-box">
+                <h3>如果您或身边人正面临困境</h3>
+                <p>法律是维护正义的最后防线。不要独自承受，专业律师的介入往往能带来转机。</p>
+                <a href="#" class="btn">获取专业法律咨询</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">关于本站</a>
+                <a href="#">免责声明</a>
+                <a href="#">法律咨询</a>
+                <a href="#">隐私政策</a>
+            </div>
+            <p>本站内容旨在普及法律知识，不构成正式法律意见。如有具体案件，请务必咨询执业律师。</p>
+            <p style="margin-top:6px;">&copy; 2025 冤罪·法律维权信息网 保留所有权利</p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ 交互
+        document.querySelectorAll('.faq-item').forEach(function(item) {
+            var q = item.querySelector('.faq-q');
+            q.addEventListener('click', function() {
+                var isOpen = item.classList.contains('open');
+                // 关闭所有
+                document.querySelectorAll('.faq-item').forEach(function(i) {
+                    i.classList.remove('open');
+                });
+                // 如果之前没打开，则打开当前
+                if (!isOpen) {
+                    item.classList.add('open');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
